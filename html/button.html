@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>button and links</title>
+</head>
+<style>
+    
+
+    /*this container apply all div elements*/
+    .container1 {
+        border: 10px solid rgb(230, 60, 94);
+        background-color: darkgoldenrod;
+        margin: 40px auto;
+        padding: 20px;
+        width: 800px;
+        border-radius: 10px;
+
+    }
+
+    /*this container apply heading  elements*/
+    #heading {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: larger;
+        text-align: center;
+        text-decoration: underline;
+
+    }
+
+    .base {
+        color: rgb(0, 0, 0);
+        font-family: fantasy;
+        /*font family for font */
+    }
+
+    .link {
+        text-decoration: none;
+        /*you can give decoration to the link*/
+        background-color: rgb(255, 0, 0);
+        border-radius: 2px;
+        padding: 6px;
+        cursor: pointer;
+        /* this style change the cursor property*/
+        font-size: 20px;
+        border: none;
+        /* remove the border on something */
+    }
+
+    a:hover {
+        color: blue;
+        /* when you hover on link this way you can change the cursor style */
+    }
+</style>
+
+<body>
+    <!-- div apply on all elemts in the div-->
+    <div id="container" class="container1">
+        <h2 id="heading">hemant singh</h2>
+        <p class="base"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus similique commodi
+            facilis tempora sequi vel ea fugit, molestiae exercitationem iure velit reiciendis, id ducimus quaerat
+            consequatur asperiores ullam ex, veritatis ab vitae nulla nihil voluptatum temporibus. Alias, eum esse vel
+            ex, dolorem veritatis officiis quas ullam asperiores excepturi porro a.</p>
+        <a href="https://google.com" class="link" target="blank">read</a>
+        <button class="link">submit</button>
+    </div>
+
+</body>
+
+</html>

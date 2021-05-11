@@ -1,0 +1,19 @@
+.container{
+    color: rgb(197, 123, 54);
+    text-align: center;
+    background: rgb(12, 12, 12);
+    margin-top:20px;
+}
+.container-fluid{
+    color: rgb(14, 95, 245);
+    background-color:rgb(12, 12, 12);
+    border: 1px solid green;
+
+}
+.row .col{
+    color: rgb(252, 249, 252);
+    border: 1px solid rgb(28, 190, 50);
+
+    text-align: center;
+}
+

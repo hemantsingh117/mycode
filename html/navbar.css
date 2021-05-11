@@ -1,0 +1,20 @@
+ul{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+div{
+  
+  background-color: cornflowerblue;
+
+}
+li{
+  display: inline;
+  border-right: 1px solid red;
+  color: white; 
+
+
+}
+

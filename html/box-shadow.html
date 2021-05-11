@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box-shadow</title>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        /* this display property useto set display  */
+        display:flex;  
+        /* flex-direction:row-reverse ; */
+        background-image: url(100.jpg);
+        background-image: url(images/100.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+
+         
+       
+    }
+    .a{
+
+        border: 2px solid rgb(221, 52, 0);
+        /* this margin give space between box's  */
+        margin:5px ;
+        padding: 5px;
+        background-color:rgb(229, 209, 153) ;
+        /* this is a box shadow proerty */
+        box-shadow: 2px 5px rgb(225, 0, 255); 
+        /* justify-content: center; */
+         
+    }
+
+.a h1{
+        /* you can give offset to shadow property */
+        text-shadow: 1px 2px rgb(253, 255, 253);
+}
+
+</style>
+</head>
+
+<body>
+   
+    <div class="a">
+        <div class="image"> </div>
+        <h1>india</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit similique, ex corporis dicta a at distinctio tempora rem qui fuga amet eum vitae reprehenderit, ratione voluptas asperiores quo aspernatur? Ducimus facere nostrum sequi adipisci aperiam! Eaque incidunt reiciendis aspernatur aperiam asperiores culpa dolorem quasi suscipit minus ipsum animi, repellendus ipsa?
+        </p>
+    </div>
+
+    <div class="a">
+        <h1>america</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit similique, ex corporis dicta a at distinctio tempora rem qui fuga amet eum vitae reprehenderit, ratione voluptas asperiores quo aspernatur? Ducimus facere nostrum sequi adipisci aperiam! Eaque incidunt reiciendis aspernatur aperiam asperiores culpa dolorem quasi suscipit minus ipsum animi, repellendus ipsa?
+        </p>
+    </div>
+    
+    <div class="a">
+        <h1>nepal</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit similique, ex corporis dicta a at distinctio tempora rem qui fuga amet eum vitae reprehenderit, ratione voluptas asperiores quo aspernatur? Ducimus facere nostrum sequi adipisci aperiam! Eaque incidunt reiciendis aspernatur aperiam asperiores culpa dolorem quasi suscipit minus ipsum animi, repellendus ipsa?
+        </p>
+    </div>
+</body>
+
+</html>

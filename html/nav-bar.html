@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar-styles</title>
+    <style>
+
+        body{
+            background-image: url("/images/hookah.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 100%;
+            
+            
+        }
+        .navbar {
+            background-color: #172d34;
+            /*this style apply on whole navbar */
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+               
+                 color: #e2bd98;
+              
+        }
+
+        .navbar li {
+            float: left;
+            /*float left side */
+            list-style: none;
+            /* appy any changes on list style remove or change */
+
+            margin: 11px 39px;
+            /* two side margin is very important for giving space in the navbar too important..*/
+        }
+
+        .navbar ul {
+            overflow: auto;
+            /*The overflow property specifies what should happen if content overflows an element's*/
+
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            padding: 3px;
+            color: #e2bd98;
+            text-transform: uppercase;
+
+
+        }
+
+        .search {
+            float: right;
+            margin: 9px 15px;
+            border-radius: 5px;
+
+        }
+
+        #button {
+                 color: #e2bd98;
+            border: 1px solid white;
+            background-color:#172d34;
+            border-radius: 4px;
+
+        }
+
+        .navbar li a:hover {
+            border: 1px solid white;
+            /* when you came with cursor that time this property work*/
+            transition: 1s;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <!--this navbar is bind all elements -->
+            <ul>
+                <!--this is unordred list -->
+                <li><a href="#">home</a></li>
+                <!--this way you can make blank link -->
+                <li><a href="#">company</a></li>
+                <li><a href="#">contact </a></li>
+                <li><a href="#">product</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="searh box">
+                    <!--that's way you take input tag-->
+                    <input id="button" type="submit" name=button placeholder="button">
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- section & paragraph -->
+<div id="image">
+
+</div>
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* img section */
+body{
+    background-image: url('/images/h.jpg');
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: cursive;
+    
+}
+/* heading section */
+.container-fluid h2{
+    color: rgb(241, 245, 242) ;
+}
+.navbar{
+    background-color: rgba(8, 8, 8, 0.842);
+  
+   
+}
+
+.navbar a{
+    color: rgb(241, 245, 242);
+    
+}
+.navbar a:hover{
+    color: rgb(243, 247, 243);
+    background-color: rgb(43, 192, 37);
+    border-radius: 3px;
+}
+ 
+/* paragragh */
+/* .row{
+    color: rgb(207, 197, 197);
+    margin-top: 5px;
+
+}
+.a{
+    border: 1px solid black; */
+
+/* side section */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: static;
+    height: 100%;
+    overflow: hidden;
+    display: inline-block;
+
+  }
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  .sidebar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  /* side content */
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 400px;
+  }
+  /* content heading */
+  .content h2{
+      color: rgb(244, 247, 245);
+      font-size: 2rem;
+  }
+  /* side navbar media queries */
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+    /* section */
+    .section{
+        display: flex;
+        flex-direction: row;
+    }
+    .col{
+  
+    background-color: rgb(100, 164, 189);
+     border: 1px solid black;
+     margin: 1px;
+     padding: 1px 1px;
+     font-family: cursive;
+ }
+ .col h2{
+     text-align: center;
+     color: rgb(10, 9, 9);
+    
+     font-family: cursive;
+ }

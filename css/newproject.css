@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#box-heading{
+    color: white;
+
+}
+.lead{
+    color:white;
+}
+    #header{
+        
+        background-color: #0a0a0a;
+        opacity: 0.7;
+        position: sticky;
+        top: 0;
+    }
+    
+    
+    #logo{
+        color:#fdfcfa;
+        font-family: 'Bebas Neue', cursive;
+        padding-top: 9px ;
+    }
+    #list{
+        margin: 0;
+        padding: 0;
+        
+    }
+    #list li{
+        display: inline;
+        list-style-type: none;
+        text-transform:uppercase ;
+        
+    }
+    
+    #list li a{
+        color: #f7f5f3;
+        text-decoration: none;
+        display: inline-block;
+        padding: 15px 20px;
+    }
+    
+    #menu li a:hover{
+        background-color: #3b2e29 ;
+        transition: 0.7s;
+        
+    }
+    
+    /* image and heading section */
+    
+    #banner{
+        background : url('/images/project1\ \(2\).jpg');
+        background-size: cover;
+        background-position: center;
+        height:350px;
+    }
+    #box{
+        padding: 50px 35px ;
+    }
+    
+    /* sestion of section */
+    
+    .section-head{
+        text-align: center;
+        margin: 20px 5px;
+        padding: 5px 5px;
+        text-transform: capitalize;
+        
+    }
+    .project{
+        
+        text-align: center;
+        text-transform: capitalize;
+        
+    }
+    
+    .project i.fab{
+        
+        font-size: 3rem;
+        margin:10px 5px ;
+        
+    }
+/* this css apply all section tag */
+.section-head{
+ 
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/* for logo colors  */
+.fa-amazon{
+ color: rgb(14, 14, 14);
+}
+    
+.fa-facebook-square{
+ color: rgb(13, 89, 230);
+}
+.fa-instagram{
+    color: rgb(211, 65, 89);
+} 
+
+/* now we jump into testimonails */
+
+#testimonilas{
+    background: url('/images/phone.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px;
+    height: 400px;
+}
+
+h2{
+    color: #e45826;
+}
+.section-head p {
+    color:white;
+}
+
+
+.author{
+   
+    color: rgb(252, 249, 249);
+}
+
+.img{
+    height: 120px;
+    width: 25%;
+    border-radius: 20px;
+}
+/* upcoming events start */
+.project-img{
+    height: 80px;
+     margin-top: 10px;
+     border-radius: 5px;
+    
+  
+
+}
+
+.col-lg-3{
+    color: #4a3933;
+    
+}
+
+
+.date{
+   margin-top:5px 1px;
+   
+   
+    
+}
+
+/* footer section */
+#footer{
+    background-color: #000000;
+    color: #fcfbf9;
+    height: 350px;
+    opacity: 0.7;
+    
+        
+}
+.footer-widget{
+    margin: 20px 20px;
+    line-height: 1.2rem;
+}
+
+.footer-widget li{
+    list-style-type: none;
+    
+    
+}
+
+
+.footer-widget li a{
+  text-decoration: none;
+  color: white;
+    
+}
+
+.footer-widget li a:hover{
+  
+    color: #e6d5b8;
+      
+  }
+
+
+  /* main footer section */
+
+
+  .main-footer{
+      background-color: grey;
+      height: 50px;
+      
+  }
+
+  .col-md-6{
+      color:#fffffe;
+      height: 30px;
+      padding:5px 25px;
+  }
+
+  #icons li {
+      list-style-type: none;
+      display: inline-block;
+      
+      
+  }
+
+  #icons li a{
+ 
+     padding-top: 10px;
+     padding: 5px 20px;
+     font-size: 2rem;
+
+
+
+
+}
+
+
+#copy{
+ text-align: center; 
+ color: white;  
+ padding: 5px 0px;
+ font-weight: bold;
+ 
+}
+
+#upcoming{
+    color: rgb(129, 119, 119);
+    text-transform: uppercase;
+}   
+    

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css-grid</title>
+    <style>
+      .container{
+        
+         width: 600px;
+         height: 500px;
+         background-color: rgb(248, 245, 245);
+         
+          
+          /*           
+          this is use for responsive layout */
+          display: grid;
+          /* it's use for colums  */
+          grid-template-columns: 1fr 1fr 1fr;
+          /* it use for row's */
+          /* fr property use only in rows and colums     */
+          grid-template-columns: 1fr 1fr 1fr;
+          /* it use for giving gap between rows and colums */
+          grid-row-gap: 10px;
+          grid-column-gap:5px;
+
+      } 
+      .item1{
+          background-color: rgb(67, 165, 42);
+         /* this property use for arranging row in on the web page  */
+          /* grid-row-start: 2; */
+          /* it use for end of the grid */
+          /* grid-column-end: 4 ; */
+         
+         /* this propety use for spaning */
+          grid-column:1/ span 3 ;
+          /* this way you can span line colums rows  */
+          grid-row: 5/ span 4;
+      }
+      .item2{
+        background-color: rgb(216, 25, 25);
+       /* arraning column on web page 
+        grid-column-start: 2;
+        same arrnage end
+        grid-column-end: ; */
+
+      }
+      .item3{
+        background-color: rgb(12, 152, 207);
+        grid-row:  ;
+
+      }
+      .item4{
+        background-color: rgb(247, 155, 81);
+
+      }
+      .item5{
+        background-color: rgb(102, 18, 91);
+
+      }
+      .item6{
+        background-color: rgb(100, 75, 75);
+
+      }
+      .item7{
+        background-color: rgb(104, 98, 182);
+
+      }
+      .item8{
+        background-color: rgb(207, 219, 29);
+
+      }
+      .item9{
+        background-color: rgb(238, 12, 12);
+
+      }
+      .item10{
+        background-color: rgb(74, 83, 139);
+
+      }
+      .item11{
+        background-color: rgb(96, 190, 53);
+
+      }
+      .item12{
+        background-color: rgb(65, 218, 27);
+
+      }
+      .item13{
+        background-color: rgb(245, 24, 215);
+
+      }
+      .item14{
+        background-color: rgb(162, 207, 36);
+
+      }
+      .item15{
+        background-color: brown;
+
+      }
+   
+
+      /* fraction 1fr means half of giving measurement */
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1" >item 1</div>
+        <div class="item2" > item 2</div>
+        <div class="item3" >item 3 </div>
+        <div class="item4">item 4</div>
+        <div class="item5" >item 5</div>
+        <div class="item6" >item 6</div>
+        <div class="item7" >item 7</div>
+        <div class="item8" >item 8</div>
+        <div class="item9" >item 9</div>
+        <div class="item10" >item 10</div>
+        <div class="item11" >item 11</div>
+        <div class="item12" >item 12</div>
+        <div class="item13" >item 13</div>
+        <div class="item14" >item 14</div>
+        <div class="item15" >item 15</div>
+       
+    </div>
+</body>
+</html>

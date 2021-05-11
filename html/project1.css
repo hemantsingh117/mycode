@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    background-color: #172d34;
+    /*this style apply on whole navbar */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+       
+         color: #e2bd98;
+         position: sticky;
+         top: 0;
+         
+         
+        }
+        
+        .navbar li {
+            float: left;
+            /*float left side */
+            list-style: none;
+            /* appy any changes on list style remove or change */
+            
+            margin: 11px 39px;
+            /* two side margin is very important for giving space in the navbar too important..*/
+        }
+        
+        .navbar ul {
+            overflow: auto;
+            /*The overflow property specifies what should happen if content overflows an element's*/
+            
+        }
+        
+        .navbar li a {
+            text-decoration: none;
+            padding: 3px;
+            color: #e2bd98;
+            text-transform: uppercase;
+            
+           
+            
+        }
+        
+.search {
+    float: right;
+    margin: 9px 15px;
+    border-radius: 5px;
+
+}
+
+
+.navbar li a:hover {
+    border: 1px solid white;
+    /* when you came with cursor that time this property work*/
+    transition: 2s;
+    border-radius: 4px;
+}
+/* image section  */
+
+
+.image img{
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+} 
+
+
+.main-section{
+    /* border: 1px solid black; */
+    margin: 50px 5px;
+    width: 50%;
+  /* justify-content: center; */
+  position: absolute;
+  left: 25%;
+}
+
+#main-heading{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+#para{
+    text-align: center;
+}
+
+
+.image-section img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

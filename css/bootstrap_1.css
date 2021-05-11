@@ -1,0 +1,59 @@
+/* .col
+{
+    border: 5px solid black;
+}
+.row{
+    border: 5px solid black;
+} */
+/* this is header section */
+#header{
+    color: white;
+    
+    background-color: rgb(136, 27, 27);
+    
+}
+/* this is setion tag */
+#section{
+    color: orange;
+    background-color:yellow ;
+    
+}
+#section ul{
+    list-style: none;
+}
+#section ul li{
+    display: inline-block;
+}
+
+#para{
+    background-color: blue;
+    border: 1px solid black;
+}
+#list{
+    background-color: brown;
+    
+} 
+
+#list ul {
+    
+  
+    
+} 
+#list ul li{
+            list-style: none;
+}
+
+#section1{
+    background-color: turquoise;
+}
+
+#footer{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    padding: 2px 2px 2px 2px;
+}
+#footer{
+    background-color: rgb(11, 211, 37);
+}
