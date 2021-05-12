@@ -88,13 +88,20 @@
 
 
 
-for(var a=1; a<=10; a++){
-    var table="*";
-    console.log("100 *" + a ,"=", table*a)
+// for(var a=1; a<=10; a++){
+//     var table="*";
+//     console.log("100 *" + a ,"=", table*a)
+// }
+
+
+for (i=1; i<11; i++){
+    var table = 21;
+    
+
+    console.log(table*i)
+
+
 }
-
-
-
 
 
 
